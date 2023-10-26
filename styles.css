@@ -3,5 +3,29 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
+    background-color: hsl(218, 22%, 67%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 635px;
+}
+
+.box {
+    padding: 45px 40px 45px 40px;
+}
+
+.white {
     background-color: hsl(204, 43%, 93%);
+    grid-column: span 2;
+}
+
+.blue {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.cyan {
+    background-color: hsl(179, 49%, 59%);
 }
