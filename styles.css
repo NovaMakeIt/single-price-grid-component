@@ -6,6 +6,28 @@ body {
     background-color: hsl(218, 22%, 67%);
 }
 
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.green {
+    color: hsl(71, 73%, 54%);
+}
+
+.grey {
+    color: hsl(218, 22%, 67%);
+}
+
+.white-text {
+    color: hsl(204, 43%, 93%);
+}
+
+.dollar {
+    color: white;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
 .grid-container {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -13,19 +35,37 @@ body {
     width: 635px;
 }
 
-.box {
+/*.box {
     padding: 45px 40px 45px 40px;
-}
+}*/
 
 .white {
     background-color: hsl(204, 43%, 93%);
+    padding: 15px 40px 5px 40px;
     grid-column: span 2;
 }
 
 .blue {
     background-color: hsl(179, 62%, 43%);
+    padding: 15px 40px 30px 40px;
 }
 
 .cyan {
-    background-color: hsl(179, 49%, 59%);
+    background-color: #4ABEBE;
+    padding: 15px 90px 30px 40px;
+}
+
+button {
+    width: 230px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(90, 89, 89, 0.2);
+}
+
+.text-low-white {
+    color: rgba(255, 255, 255, 0.473);
 }
